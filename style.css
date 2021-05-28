@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #00b7ff;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 10em;
+  color: rgba(236, 245, 247, 0.4);
+  background: url(https://xgm.guru/files/1746/220163/comments/410204/Huayi-cielo-Fondos-para-Kits-de-estudio-de-fotograf-a-fondo-de-fotograf-a-Fondos-para.jpg)
+    repeat-x;
+  background-clip: text;
+  animation: anim 20s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    background-position: left 0px top 80px;
+  }
+  35% {
+    background-position: left 800px top -60px;
+  }
+  70% {
+    background-position: left 1600px top -70px;
+  }
+  100% {
+    background-position: left 2200px top 80px;
+  }
+}
